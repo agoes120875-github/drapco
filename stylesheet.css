@@ -1,0 +1,273 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+header {
+  background-color:	#4169E1;
+  height: 65px;
+  width: 100%;
+  opacity: 0.5;
+  position: fixed;
+  z-index: 10;
+}
+
+.logo {
+  width: 100px;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: 25px;
+}
+
+.header-right:hover {
+  opacity: 1;
+  background-color: orange;
+}
+
+.header-right a {
+  display: block;
+  line-height: 65px;
+  height: 65px;
+  padding: 0 25px;
+  color: white;
+  opacity: 0.5;
+  transition: all 0.5s;
+  float: left;
+}
+
+.login {
+  color: white;
+}
+
+.menu-icon {
+  float: right;
+  color: white;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+
+
+.top-wrapper {
+  background-image: url('images/backdrop-reuni.jpg');
+  padding: 180px 0 100px 0;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  margin: 0 auto;
+  letter-spacing: 10px;
+  font-size: 30px;
+}
+
+h1 {
+  text-align: center;
+  margin: 0 auto;
+  font-family:brush script mt;
+  font-size: 50px;
+  opacity: 0.7;
+}
+
+.gd {
+  font-family:courier;
+  font-size: 35px;
+}
+
+.prog {
+  font-family: courier;
+  font-size: 35px;
+}
+
+.motto {
+  text-align: center;
+  margin: 0 0 100px 0;
+  padding-top: 0;
+  opacity: 0.7;
+}
+
+.btn {
+  color: white;
+  padding: 15px 100px;
+  display: inline-block;
+  opacity: 0.7;
+  border-radius: 7px;
+  margin-right: 10px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.signup {
+  background-color: orange;
+}
+.facebook {
+  background-color: #000080;
+}
+
+.twitter  {
+  background-color: #1E90FF;
+}
+
+.btn-wrapper p{
+  margin: 10px 0;
+}
+
+.fa {
+  margin-right: 10px;
+}
+
+.programs-wrapper {
+  background-color:	#D3D3D3;
+  padding-bottom: 50px;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 50px;
+  padding-bottom: 25px;
+  color: black;
+}
+
+.heading h2 {
+  font-weight: normal;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+.program {
+  float: left;
+  width: 25%;
+}
+
+.program-icon {
+  position: relative;
+}
+
+.program-icon p {
+  position: absolute;
+  width: 100%;
+  top: 90px;
+  font-size: 20px;
+  color: white;
+}
+
+.text-content {
+  display: inline-block;
+  width: 80%;
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+.messages-wrapper {
+  text-align: center;
+  padding-bottom: 80px;
+  border-bottom: 1px solid orange;
+}
+
+.btn-message {
+  padding: 15px 40px;
+  background-color: lightgreen;
+  cursor: pointer;
+  box-shadow: 0 7px black;
+}
+
+.btn-message:active {
+  box-shadow: none;
+  position: relative;
+  top: 7px;
+}
+
+.heading h3{
+  font-weight: normal;
+}
+
+footer {
+  padding-top: 30px;
+}
+
+footer img{
+  width: 120px;
+}
+
+footer p{
+  font-size: 12px;
+  color: orange;
+}
+
+@media all and (max-width: 1000px) {
+  .program {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+  .gd h1 {
+    font-size: 12px;
+  }
+
+  .prog h1 {
+    font-size: 12px;
+  }
+}
+
+@media all and (max-width: 670px) {
+  .program {
+    width: 100%;
+  }
+
+  .gd h1 {
+    font-size: 7px;
+  }
+
+  .prog h1 {
+    font-size: 7px;
+  }
+
+  footer {
+  text-align: center;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .facebook {
+    margin-bottom: 10px;
+  }
+
+  .header-right {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+}
